@@ -1,0 +1,29 @@
+title: CoderDojo Schöneweide
+email: schoneweide.berlin@coderdojo.com
+description: >-
+  Dies ist der offizielle Blog des CoderDojo Schöneweide. Hier findest Du
+  Infos zu unseren Veranstaltungen und über unsere Arbeit. Außerdem kannst Du
+  hier auch unseren RSS-Feed abonnieren, um immer auf dem aktuellsten Stand zu
+  bleiben.
+baseurl: "/"
+url: "https://coderdojo-schoeneweide.github.io"
+twitter_username: CoderDojo-Schoeneweide
+github_username:  CoderDojo-Schoeneweide
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
