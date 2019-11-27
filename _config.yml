@@ -9,6 +9,7 @@ baseurl: "/"
 url: "https://coderdojo-schoeneweide.github.io"
 twitter_username: CoderDojo-Schoeneweide
 github_username:  CoderDojo-Schoeneweide
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
