@@ -30,7 +30,7 @@ h1 {
 
 .wrapper {
   max-width: $wrapper-width;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .background-main {
@@ -56,7 +56,7 @@ header {
   }
 
   nav {
-    padding: 1rem 1.5rem;
+    padding: 1rem .5rem;
 
     input, label {
       display: none;
@@ -69,11 +69,11 @@ header {
       display: flex;
 
       li {
-        border: 1px solid $color-dark;
+        border: 1px solid $color-main;
         border-radius: 2px;
         padding: 0.5rem;
         margin: 0 0.5rem;
-        background-color: $color-light;
+        background-color: $color-main;
       }
     }
   }
@@ -97,12 +97,13 @@ main {
   }
 
   section {
-    padding: 0.5rem 1.5rem;
+    padding: .5rem .5rem;
   }
 
   aside {
     grid-area: aside;
     padding: 0.5rem 1.5rem;
+    border-left: 1px solid $color-main;
     //background-color: #ebddc7;
 
     .social {
