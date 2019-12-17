@@ -47,12 +47,11 @@ header {
 
     h1 {
       display: inline;
+      font-size: 2.85rem;
+      vertical-align: top;
     }
 
-    img {
-      max-height: 3rem;
-      margin-right: 0.5rem;
-    }
+
   }
 
   nav {
@@ -112,6 +111,9 @@ main {
     padding: 0.5rem 1.5rem;
     border-left: 1px solid $color-main;
     //background-color: #ebddc7;
+    img {
+      max-height: 4rem;
+    }
 
     .social {
       list-style: none;
