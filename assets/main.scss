@@ -56,24 +56,31 @@ header {
   }
 
   nav {
-    padding: 1rem .5rem;
 
     input, label {
       display: none;
     }
 
     ul {
-      margin: 0;
       padding: 0;
       list-style: none;
-      display: flex;
+      display: grid;
+      grid-template-columns: auto auto auto auto; //Add more columns if needed
 
       li {
-        border: 1px solid $color-main;
-        border-radius: 2px;
-        padding: 0.5rem;
-        margin: 0 0.5rem;
-        background-color: $color-main;
+          a {
+            font-weight: bold;
+            margin: 0 .1rem;
+            padding: .9rem;
+            background-color: $color-main;
+            color: $color-light;
+            text-align: center;
+
+            &:hover {
+              cursor:pointer;
+              opacity: 0.8;
+            }
+          }
       }
     }
   }
