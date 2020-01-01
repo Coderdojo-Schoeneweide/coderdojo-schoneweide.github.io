@@ -42,7 +42,7 @@ function showTeam() {
     const name = key
     const tasks = value.tasks
     const placeholderImg = "../assets/img/img.png"
-    const imgUrl = (value.imgUrl) = value.imgUrl : placeholderImg
+    const imgUrl = (value.imgUrl) ? value.imgUrl : placeholderImg
 
     return newMemberEntry(name, tasks, imgUrl)
   }).forEach(child => list.appendChild(child))
