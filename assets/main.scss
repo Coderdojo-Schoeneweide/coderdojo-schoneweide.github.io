@@ -23,6 +23,10 @@ body {
   background-color: $color-light;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .wrapper {
   max-width: $wrapper-width;
   margin: 2rem auto;
@@ -155,6 +159,9 @@ main {
 
   #team {
     background-color: $color-main;
+    h2 {
+      text-align: center;
+    }
 
     ul {
       list-style: none;
