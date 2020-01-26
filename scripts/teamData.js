@@ -8,43 +8,43 @@ const team = {
   "Linda": {
     "interests": "Webentwicklung, Data Science, Scratch",
     "background": "Studiert Medieninformatik im Master und leitet Informatik-Übungen an der HTW",
-    "tasks": "Projekt Management, Mentoring",
+    "tasks": "Projekt Management, Mentoring, Webseite",
     "imgUrl": null
   },
   "Lotte": {
     "interests": "Webentwicklung, Organisieren, Menschen",
     "background": "Studiert Medieninformatik im Bachelor ",
-    "tasks": "Mentoring, ein bisschen Orga",
+    "tasks": "Mentoring, Organisation",
     "imgUrl": null
   },
   "Luis": {
     "interests": "Game Development, Webentwicklung, Lesen",
     "background": "Studiert Medieninformatik im Bachelor ",
-    "tasks": "Blog-Maintaining",
+    "tasks": "Webseite",
     "imgUrl": null
   },
   "Magdalena": {
     "interests": "Webentwicklung, Webdesign, Graphic Design",
     "background": "Studiert Medieninformatik im Bachelor ",
-    "tasks": "Logo Design, Social Media und Blog Posts",
+    "tasks": "Logo Design, Social Media, Blog Posts",
     "imgUrl": null
   },
   "Patrick": {
     "interests": "Ethical Hacking, Software Development, Skateboard, Fußball",
     "background": "3 Jahre Ausbildung zum Fachinformatiker, studiert jetzt Angewandte Informatik im Bacheor",
-    "tasks": "Mentoring und ein bisschen Social Media",
+    "tasks": "Mentoring, Social Media",
     "imgUrl": null
   },
   "Sebastian": {
     "interests": "Von allem ein Bisschen und ein bisschen mehr Autos und Technik. Vor allem aber Spaß am Umgang damit.",
     "background": "Nfz Mechatroniker (also die ganz schweren Autos), studiert jetzt Fahrzeugtechnik im Bachelor und probiert gerne alles aus",
-    "tasks": "Mädchen für Alles.",
+    "tasks": "Mädchen für Alles",
     "imgUrl": null
   },
   "Yana": {
     "interests": "Android Development, Lesen",
     "background": "Vier Semester Business Analyse in Minsk, studiert jetzt Medieninformatik im Bachelor",
-    "tasks": "Mädchen für Alles.",
+    "tasks": "Social Media",
     "imgUrl": null
   },
 }
