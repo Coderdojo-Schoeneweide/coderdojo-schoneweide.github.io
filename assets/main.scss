@@ -73,7 +73,7 @@ header {
       display: grid;
       grid-template-columns: auto auto auto auto; //Add more columns if needed
 
-      li {
+      /*li {
           a {
             font-weight: bold;
             margin: 0 .1rem;
@@ -87,8 +87,25 @@ header {
               opacity: 0.8;
             }
           }
-      }
+      }*/
     }
+  }
+}
+
+.button {
+  font-weight: bold;
+  margin: 0 .1rem;
+  padding: .9rem;
+  background-color: $color-main;
+  color: $color-light;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+
+  &:hover {
+    cursor:pointer;
+    opacity: 0.8;
   }
 }
 
