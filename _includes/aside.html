@@ -2,19 +2,18 @@
     <h2>Kontakt</h2>
     {%- include social.html -%}
     {%- if site.posts.size > 0 -%}
-    <h2>{{ page.list_title | default: "Blog" }}</h2>
+    <h2>{{ page.list_title | default: "Aktuelle Blogposts" }}</h2>
     <ul class="post-list">
         {%- for post in site.posts -%}
         <li>
             <a href="{{ post.url | relative_url }}">
-                <div>
                     <h3>{{ post.title | escape }}</h3>
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                    <span>{{ post.date | date: date_format }}</span>
-                </div>
+                    <p>{{ post.date | date: date_format }}</p>
             </a>
         </li>
         {%- endfor -%}
     </ul>
+    <a class="button" href="{{ site.url }}/blog.html">Alle Posts</a>
     {%- endif -%}
 </aside>

@@ -1,0 +1,17 @@
+<section id="all-posts">
+    <h2>Blog</h2>
+    {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+        {%- for post in site.posts -%}
+        <li>
+            <a href="{{ post.url | relative_url }}">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <h3>{{ post.date | date: date_format }} | {{ post.title | escape }}</h3>
+                <p>{{ post.excerpt }}</p>
+                <p class="ellipsis"> ... </p>
+            </a>
+        </li>
+        {%- endfor -%}
+    </ul>
+    {%- endif -%}
+</section>
