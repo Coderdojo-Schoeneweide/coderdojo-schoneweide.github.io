@@ -71,23 +71,11 @@ header {
       padding: 0;
       list-style: none;
       display: grid;
-      grid-template-columns: auto auto auto auto; //Add more columns if needed
+      grid-template-columns: auto auto auto auto auto; //Add more columns if needed
 
-      /*li {
-          a {
-            font-weight: bold;
-            margin: 0 .1rem;
-            padding: .9rem;
-            background-color: $color-main;
-            color: $color-light;
-            text-align: center;
-
-            &:hover {
-              cursor:pointer;
-              opacity: 0.8;
-            }
-          }
-      }*/
+      li {
+          margin: 0.1rem
+      }
     }
   }
 }
@@ -151,27 +139,6 @@ main {
         }
       }
     }
-
-    .post-list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-
-      li {
-        background-color: $color-main;
-        padding: 0.5rem 1rem;
-        margin: 1rem 0;
-
-        a {
-          color: $color-dark;
-          text-decoration: none;
-        }
-
-        h3 {
-          margin: 0 0 0.7rem 0;
-        }
-      }
-    }
   }
 
   #team {
@@ -212,6 +179,34 @@ main {
       }
     }
   }
+}
+
+.post-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding: 0.5rem 1rem;
+      margin: 1rem 0;
+
+      &:not(:first-child) {
+        border-top: 1px solid $color-dark;
+      }
+
+      a {
+        color: $color-dark;
+        text-decoration: none;
+      }
+
+      h3 {
+        margin: 0 0 0.7rem 0;
+      }
+
+      .ellipsis {
+        text-align: center;
+      }
+    }
 }
 
 footer {
