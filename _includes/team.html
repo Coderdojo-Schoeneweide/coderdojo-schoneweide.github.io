@@ -1,6 +1,17 @@
 <section id="team">
     <h2>Team</h2>
     <ul id="teamMemberList">
-
+        {% for teamMember in site.data.team %}
+        <li>
+            <div class="front">
+                <h3>{{ teamMember.name }}</h3>
+                <img src="/assets/img/team/{{ teamMember.imagePath | default: "img.png" }}" alt="team member image">
+            </div>
+            <div class="back">
+                <h3>{{ teamMember.name }}</h3>
+                <p>{{ teamMember.tasks }}</p>
+            </div>
+        </li>
+        {% endfor %}
     </ul>
 </section>
