@@ -266,3 +266,24 @@ footer {
     text-align: center;
   }
 }
+
+@media screen and (max-width: 480px) {
+  main {
+    .columns {
+      grid-template-areas: "about" "events" "aside";
+      grid-template-columns: initial;
+    }
+
+    aside {
+      border-left: none;
+    }
+
+    aside::before {
+      content: "";
+      display: block;
+      background-color: $color-main;
+      height: 1px;
+      width: 100%;
+    }
+  }
+}
