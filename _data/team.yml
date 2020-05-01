@@ -1,7 +1,7 @@
 - name: Anton
   interests: Machine Learning, Mobile Applications, Functional Programming
   background: Studiert Angewandte Informatik im Master
-  tasks:
+  tasks: Mentoring
   imagePath: anton.png
 
 - name: Linda
@@ -44,4 +44,10 @@
   interests: Android Development, Lesen
   background: Vier Semester Business Analyse in Minsk, studiert jetzt Medieninformatik im Bachelor
   tasks: Social Media
+  imagePath:
+
+- name: Mirijam
+  interests: Schnuppern in verschiedenen Bereichen, z.B Web-Entwicklung und Softwareentwicklung
+  background: Medieninformatik im 1. Bachelor Semester
+  tasks:
   imagePath:
