@@ -67,6 +67,15 @@ header {
       display: none;
     }
 
+    label {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      background-color: $color-main;
+      color: $color-light;
+      padding: 0.5rem 0;
+    }
+
     ul {
       padding: 0;
       list-style: none;
@@ -268,6 +277,55 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+  header {
+    a {
+      .site-subtitle {
+        font-size: 3rem;
+      }
+    }
+
+    nav {
+      label {
+        display: block;
+
+        &::after {
+          content: "▼";
+          font-size: 1rem;
+        }
+      }
+
+      ul {
+        max-height: 0;
+        overflow: hidden;
+        margin: 0;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: initial;
+        transition: max-height 0.5s ease;
+        -moz-transition: max-height 0.5s ease;
+        -o-transition: max-height 0.5s ease;
+        -webkit-transition: max-height 0.5s ease;
+
+        li {
+          margin: 0;
+
+          .button {
+            margin: 0;
+          }
+        }
+      }
+
+      input:checked {
+        ~ ul {
+          max-height: 100%;
+        }
+
+        ~ label::after {
+          content: "▲";
+        }
+      }
+    }
+  }
+
   main {
     .columns {
       grid-template-areas: "about" "events" "aside";
