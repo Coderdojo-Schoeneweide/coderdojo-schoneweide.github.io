@@ -51,3 +51,9 @@
   background: Medieninformatik im 1. Bachelor Semester
   tasks:
   imagePath: mirijam.jpg
+
+- name: Mihail
+  interests: Embedded Systems, Home Automation & IoT, Fotografie & DIY
+  background: B.Eng. Computer Engineering
+  tasks: Mentoring, Fotos
+  imagePath: mihail.png
